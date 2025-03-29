@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body, html {
+  margin: 0;
+  height: 100%; /* Ensure the body and html take up the full viewport height */
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  text-align: center;
+}
+
+#root {
+  width: 100%; /* Ensure the root container spans the full width */
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  flex-direction: column; /* Stack content vertically */
+  align-items: center; /* Align items horizontally in the center */
+}

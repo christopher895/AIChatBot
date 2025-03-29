@@ -1,7 +1,12 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+  flex-direction: column; /* Ensures content stacks vertically */
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
